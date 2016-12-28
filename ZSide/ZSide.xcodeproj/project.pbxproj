@@ -21,7 +21,7 @@
 		ABCEE8011E0CB3CB00DEA999 /* ZBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCEE7F71E0CB3CB00DEA999 /* ZBaseTableViewCell.m */; };
 		ABCEE8021E0CB3CB00DEA999 /* ZBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCEE7F91E0CB3CB00DEA999 /* ZBaseView.m */; };
 		ABCEE8031E0CB3CB00DEA999 /* ZSideLeftCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCEE7FB1E0CB3CB00DEA999 /* ZSideLeftCell.m */; };
-		ABCEE8051E0CB46800DEA999 /* Zside.gif in Resources */ = {isa = PBXBuildFile; fileRef = ABCEE8041E0CB46800DEA999 /* Zside.gif */; };
+		ABE1F2841E13BDB5004A6E16 /* Zside.gif in Resources */ = {isa = PBXBuildFile; fileRef = ABE1F2831E13BDB5004A6E16 /* Zside.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,7 +51,7 @@
 		ABCEE7F91E0CB3CB00DEA999 /* ZBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBaseView.m; sourceTree = "<group>"; };
 		ABCEE7FA1E0CB3CB00DEA999 /* ZSideLeftCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSideLeftCell.h; sourceTree = "<group>"; };
 		ABCEE7FB1E0CB3CB00DEA999 /* ZSideLeftCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSideLeftCell.m; sourceTree = "<group>"; };
-		ABCEE8041E0CB46800DEA999 /* Zside.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Zside.gif; sourceTree = "<group>"; };
+		ABE1F2831E13BDB5004A6E16 /* Zside.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Zside.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 		ABCEE7CF1E0CB35300DEA999 /* ZSide */ = {
 			isa = PBXGroup;
 			children = (
-				ABCEE8041E0CB46800DEA999 /* Zside.gif */,
+				ABE1F2831E13BDB5004A6E16 /* Zside.gif */,
 				ABCEE7E71E0CB3CB00DEA999 /* Controls */,
 				ABCEE7E81E0CB3CB00DEA999 /* ViewControllers */,
 				ABCEE7F41E0CB3CB00DEA999 /* Views */,
@@ -221,7 +221,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABCEE8051E0CB46800DEA999 /* Zside.gif in Resources */,
+				ABE1F2841E13BDB5004A6E16 /* Zside.gif in Resources */,
 				ABCEE7E01E0CB35300DEA999 /* LaunchScreen.storyboard in Resources */,
 				ABCEE7DD1E0CB35300DEA999 /* Assets.xcassets in Resources */,
 				ABCEE7DB1E0CB35300DEA999 /* Main.storyboard in Resources */,
@@ -406,6 +406,7 @@
 				ABCEE7E61E0CB35300DEA999 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
