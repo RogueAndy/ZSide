@@ -22,6 +22,7 @@
 		ABCEE8021E0CB3CB00DEA999 /* ZBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCEE7F91E0CB3CB00DEA999 /* ZBaseView.m */; };
 		ABCEE8031E0CB3CB00DEA999 /* ZSideLeftCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCEE7FB1E0CB3CB00DEA999 /* ZSideLeftCell.m */; };
 		ABE1F2941E13E154004A6E16 /* Zside.gif in Resources */ = {isa = PBXBuildFile; fileRef = ABE1F2931E13E154004A6E16 /* Zside.gif */; };
+		ABE1F29A1E13E3F3004A6E16 /* Zside_1.gif in Resources */ = {isa = PBXBuildFile; fileRef = ABE1F2991E13E3F3004A6E16 /* Zside_1.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		ABCEE7FA1E0CB3CB00DEA999 /* ZSideLeftCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSideLeftCell.h; sourceTree = "<group>"; };
 		ABCEE7FB1E0CB3CB00DEA999 /* ZSideLeftCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSideLeftCell.m; sourceTree = "<group>"; };
 		ABE1F2931E13E154004A6E16 /* Zside.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Zside.gif; sourceTree = "<group>"; };
+		ABE1F2991E13E3F3004A6E16 /* Zside_1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Zside_1.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		ABCEE7CF1E0CB35300DEA999 /* ZSide */ = {
 			isa = PBXGroup;
 			children = (
+				ABE1F2991E13E3F3004A6E16 /* Zside_1.gif */,
 				ABE1F2931E13E154004A6E16 /* Zside.gif */,
 				ABCEE7E71E0CB3CB00DEA999 /* Controls */,
 				ABCEE7E81E0CB3CB00DEA999 /* ViewControllers */,
@@ -221,6 +224,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABE1F29A1E13E3F3004A6E16 /* Zside_1.gif in Resources */,
 				ABE1F2941E13E154004A6E16 /* Zside.gif in Resources */,
 				ABCEE7E01E0CB35300DEA999 /* LaunchScreen.storyboard in Resources */,
 				ABCEE7DD1E0CB35300DEA999 /* Assets.xcassets in Resources */,
