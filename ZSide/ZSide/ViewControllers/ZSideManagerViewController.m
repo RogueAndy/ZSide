@@ -483,8 +483,16 @@ static ZSideManagerViewController *manager = nil;
     
     }
     
+    [self.centerView removeFromSuperview];
+    self.centerView = nil;
     self.centerView = selectViewController.view;
-    [self setCenterViewOverRect];
+    [self.view insertSubview:self.centerView belowSubview:self.leftView];
+    if(self.isCenterViewControllerMoveAlongWithLeft) {
+        
+        [self setCenterViewOverRect];
+        
+    }
+    
     [self transitionFromViewController:self.centerController
                       toViewController:selectViewController
                               duration:0
