@@ -32,7 +32,7 @@
     [self.view addSubview:textLabel];
     
     textLabel.frame = CGRectMake(30, 100, CGRectGetWidth(self.view.bounds) - 60, 40);
-    self.view.backgroundColor = [UIColor cyanColor];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"show1"]];
     
     UIButton *left = [UIButton buttonWithType:UIButtonTypeCustom];
     [left setTitle:@"显示" forState:UIControlStateNormal];
@@ -66,7 +66,7 @@
     [self.view addSubview:textLabel];
     
     textLabel.frame = CGRectMake(30, 100, CGRectGetWidth(self.view.bounds) - 60, 40);
-    self.view.backgroundColor = [UIColor magentaColor];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"show2"]];
     
     UIButton *left = [UIButton buttonWithType:UIButtonTypeCustom];
     [left setTitle:@"显示" forState:UIControlStateNormal];
@@ -98,7 +98,7 @@
     [self.view addSubview:textLabel];
     
     textLabel.frame = CGRectMake(30, 100, CGRectGetWidth(self.view.bounds) - 60, 40);
-    self.view.backgroundColor = [UIColor yellowColor];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"show1"]];
     
     UIButton *left = [UIButton buttonWithType:UIButtonTypeCustom];
     [left setTitle:@"显示" forState:UIControlStateNormal];
@@ -130,7 +130,7 @@
     [self.view addSubview:textLabel];
     
     textLabel.frame = CGRectMake(30, 100, CGRectGetWidth(self.view.bounds) - 60, 40);
-    self.view.backgroundColor = [UIColor brownColor];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"show2"]];
     
     UIButton *left = [UIButton buttonWithType:UIButtonTypeCustom];
     [left setTitle:@"显示" forState:UIControlStateNormal];
@@ -162,7 +162,7 @@
     [self.view addSubview:textLabel];
     
     textLabel.frame = CGRectMake(30, 100, CGRectGetWidth(self.view.bounds) - 60, 40);
-    self.view.backgroundColor = [UIColor purpleColor];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"show1"]];
     
     UIButton *left = [UIButton buttonWithType:UIButtonTypeCustom];
     [left setTitle:@"显示" forState:UIControlStateNormal];

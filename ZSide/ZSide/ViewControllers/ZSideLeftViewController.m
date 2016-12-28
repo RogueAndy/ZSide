@@ -22,7 +22,7 @@
 
 - (void)loadInit {
 
-    self.view.backgroundColor = [UIColor orangeColor];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"leftimg"]];
     _buttonNames = @[@"第一个", @"第二个", @"第三个", @"第四个", @"第五个"];
 
 }
@@ -32,6 +32,7 @@
     _buttonTable = [[UITableView alloc] initWithFrame:CGRectZero];
     _buttonTable.delegate = self;
     _buttonTable.dataSource = self;
+    _buttonTable.backgroundColor = [UIColor clearColor];
     UIView *clearView = [UIView new];
     clearView.backgroundColor = [UIColor clearColor];
     [_buttonTable setTableFooterView:clearView];
